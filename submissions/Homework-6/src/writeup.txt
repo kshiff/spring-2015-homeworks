@@ -1,0 +1,17 @@
+I retrieved my data from the Kaggle March Machine Learning Mania competition (https://www.kaggle.com/c/march-machine-learning-mania-2015). The data took the form of multiple csv files which I needed to reorganize. The data available covered the seasons and tournaments for the years 2003-2014, as well as the 2015 regular season data. For regular season games and pre-2015 tournament games, we have access to per-game statistics: field goals made, field goals attempted, three pointers made, three pointers attempted, free throws made, free throws attempted, offensive rebounds, defensive rebounds, assists, turnovers, steals, blocks, and personal fouls for each game. Most of these statistics generally follow a normal distribution and there is no missing data.
+
+
+
+
+Possible Hypotheses:
+Which stats most influence winning (besides score)?
+Is regular season performance a reliable indicator of tournament performance? How much predictive power does it have? (talk about kentucky this year)
+How do different stats change over the years? Why?
+How do different stats' predictive power change over the years?
+High volume of shot attempts vs efficiency? What's most effective and has that changed over the years?
+Conventional basketball wisdom claims that free throw percentages make or break teams. To what extent is this true, and has it changed over time?
+Similarly, rebounds (missing defensive and allowing offensive) is often purported to be the deciding factor in games. Look at predictive power and disparity between winning and losing teams on average. Also look over time.
+Look at outliers? 21 steals from a winning team (mean 6.5, std dev 3)
+How many fouls are committed/called during regular seasons vs tournaments? Over time? Officials effect on play.
+Better to have a few stars or many team players? Look at assisted vs unassisted baskets (fg made - assists)
+
